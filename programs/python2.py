@@ -73,8 +73,7 @@ def two(num):
 
 
 def three(a):
-    return
-
+    return a + (10 * a + a) + (100 * a + 10 * a + a) + (1000 * a + 100 * a + 10 * a + a)
     # <QUESTION 4>
 
     # Given two Strings of equal length, 'merge' them into one String.
