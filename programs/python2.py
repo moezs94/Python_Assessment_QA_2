@@ -224,18 +224,9 @@ def nine(string1, string2):
     for i in range(0, n1):
         if string1[i] != string2[i]:
             return 0
- 
+
     return 1
-
-    if nine(string1, string2):
-
-        return True
-
-    else:
-
-        return False
-
-    # <QUESTION 10>
+    
 
     # Write a function which takes 2 integers greater than 0, X,Y as input and generates a 2-dimensional array.
 
