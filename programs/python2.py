@@ -32,7 +32,10 @@ import random
 
 
 def one(string):
-    return
+    to_return = ''
+    for c in string:
+        to_return += c*3
+    return to_return
 
     # <QUESTION 2>
 
@@ -52,6 +55,7 @@ def one(string):
 
 def two(num):
     return
+
 
     # <QUESTION 3>
 
