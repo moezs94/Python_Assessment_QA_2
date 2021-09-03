@@ -119,8 +119,9 @@ def four(string1, string2):
     # The random module contains a function called randint.
 
 
+import random
 def five():
-    return
+    return(random.sample([i for i in range(100,200) if i%2==0], 5))
 
     # <QUESTION 6>
 
@@ -140,7 +141,11 @@ def five():
 
 
 def six(string):
-    return
+    if string.endswith('py'):
+        return True
+    else:
+        return False 
+
 
     # <QUESTION 7>
 
