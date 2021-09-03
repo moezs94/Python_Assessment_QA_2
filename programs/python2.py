@@ -208,8 +208,32 @@ def eight(string, num):
 
 
 def nine(string1, string2):
-    # make sure string1 is the shortest of the two
-    return
+    
+    n1 = len(string1)
+    n2 = len(string2)
+ 
+   
+    if n1 != n2:
+        return 0
+ 
+
+    string1 = sorted(string1)
+    string2 = sorted(string2)
+ 
+    
+    for i in range(0, n1):
+        if string1[i] != string2[i]:
+            return 0
+ 
+    return 1
+
+    if nine(string1, string2):
+
+        return True
+
+    else:
+
+        return False
 
     # <QUESTION 10>
 
